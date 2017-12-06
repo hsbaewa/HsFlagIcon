@@ -1,0 +1,727 @@
+package kr.co.hs.flagicon;
+
+/**
+ * Created by hsbaewa on 2017. 11. 17..
+ */
+
+public interface CountryConst {
+    String ISOCODE_AFGHANISTAN = "AF";
+    String ISOCODE3_AFGHANISTAN = "AFG";
+
+    String ISOCODE_ALBANIA = "AL";
+    String ISOCODE3_ALBANIA = "ALB";
+
+    String ISOCODE_ALGERIA = "DZ";
+    String ISOCODE3_ALGERIA = "DZA";
+
+    String ISOCODE_AMERICAN_SAMOA = "AS";
+    String ISOCODE3_AMERICAN_SAMOA = "ASM";
+
+    String ISOCODE_ANDORRA = "AD";
+    String ISOCODE3_ANDORRA = "AND";
+
+    String ISOCODE_ANGOLA= "AO";
+    String ISOCODE3_ANGOLA = "AGO";
+
+    String ISOCODE_ANGUILLA = "AI";
+    String ISOCODE3_ANGUILLA = "AIA";
+
+    String ISOCODE_ANTARCTICA = "AQ";
+    String ISOCODE3_ANTARCTICA = "ATA";
+
+    String ISOCODE_ANTIGUA = "AG";
+    String ISOCODE3_ANTIGUA = "ATG";
+
+    String ISOCODE_ARGENTINA = "AR";
+    String ISOCODE3_ARGENTINA = "ARG";
+
+    String ISOCODE_ARMENIA = "AM";
+    String ISOCODE3_ARMENIA = "ARM";
+
+    String ISOCODE_ARUBA = "AW";
+    String ISOCODE3_ARUBA = "ABW";
+
+    String ISOCODE_AUSTRALIA = "AU";
+    String ISOCODE3_AUSTRALIA = "AUS";
+
+    String ISOCODE_AUSTRIA = "AT";
+    String ISOCODE3_AUSTRIA = "AUT";
+
+    String ISOCODE_AZERBAIJAN = "AZ";
+    String ISOCODE3_AZERBAIJAN = "AZE";
+    //B
+    String ISOCODE_BAHAMAS = "BS";
+    String ISOCODE3_BAHAMAS = "BHS";
+
+    String ISOCODE_BAHRAIN = "BH";
+    String ISOCODE3_BAHRAIN = "BHR";
+
+    String ISOCODE_BANGLADESH = "BD";
+    String ISOCODE3_BANGLADESH = "BGD";
+
+    String ISOCODE_BARBADOS = "BB";
+    String ISOCODE3_BARBADOS = "BRB";
+
+    String ISOCODE_BELARUS = "BY";
+    String ISOCODE3_BELARUS = "BLR";
+
+    String ISOCODE_BELGIUM = "BE";
+    String ISOCODE3_BELGIUM = "BEL";
+
+    String ISOCODE_BELIZE = "BZ";
+    String ISOCODE3_BELIZE = "BLZ";
+
+    String ISOCODE_BENIN = "BJ";
+    String ISOCODE3_BENIN = "BEN";
+
+    String ISOCODE_BERMUDA = "BM";
+    String ISOCODE3_BERMUDA = "BMU";
+
+    String ISOCODE_BHUTAN = "BT";
+    String ISOCODE3_BHUTAN = "BTN";
+
+    String ISOCODE_BOLIVIA = "BO";
+    String ISOCODE3_BOLIVIA = "BOL";
+
+    String ISOCODE_BOSNIA_AND_HERZEGOVINA = "BA";
+    String ISOCODE3_BOSNIA_AND_HERZEGOVINA = "BIH";
+
+    String ISOCODE_BOTSWANA = "BW";
+    String ISOCODE3_BOTSWANA = "BWA";
+
+    String ISOCODE_BRAZIL = "BR";
+    String ISOCODE3_BRAZIL = "BRA";
+
+    String ISOCODE_BRITISH_INDIAN_OCEAN_TERRITORY = "IO";
+    String ISOCODE3_BRITISH_INDIAN_OCEAN_TERRITORY = "IOT";
+
+    String ISOCODE_BRITISH_VIRGIN_ISLANDS = "VG";
+    String ISOCODE3_BRITISH_VIRGIN_ISLANDS = "VGB";
+
+    String ISOCODE_BRUNEI = "BN";
+    String ISOCODE3_BRUNEI = "BRN";
+
+    String ISOCODE_BULGARIA = "BG";
+    String ISOCODE3_BULGARIA = "BGR";
+
+    String ISOCODE_BURKINA_FASO = "BF";
+    String ISOCODE3_BURKINA_FASO = "BFA";
+
+    String ISOCODE_BURUNDI = "BI";
+    String ISOCODE3_BURUNDI = "BDI";
+
+    String ISOCODE_CAMBODIA = "KH";
+    String ISOCODE3_CAMBODIA = "KHM";
+
+    String ISOCODE_CAMEROON = "CM";
+    String ISOCODE3_CAMEROON = "CMR";
+
+    String ISOCODE_CANADA = "CA";
+    String ISOCODE3_CANADA = "CAN";
+
+    String ISOCODE_CAPE_VERDE = "CV";
+    String ISOCODE3_CAPE_VERDE = "CPV";
+
+    String ISOCODE_CAYMAN_ISLANDS = "KY";
+    String ISOCODE3_CAYMAN_ISLANDS = "CYM";
+
+    String ISOCODE_CENTRAL_AFREICAN_REPUBLIC = "CF";
+    String ISOCODE3_CENTRAL_AFREICAN_REPUBLIC = "CAF";
+
+    String ISOCODE_CHAD = "TD";
+    String ISOCODE3_CHAD = "TCD";
+
+    String ISOCODE_CHILE = "CL";
+    String ISOCODE3_CHILE = "CHL";
+
+    String ISOCODE_CHINA = "CN";
+    String ISOCODE3_CHINA = "CHN";
+
+    String ISOCODE_CHRISTMAS_ISLAND = "CX";
+    String ISOCODE3_CHRISTMAS_ISLAND = "CXR";
+
+    String ISOCODE_COCOS_ISLANDS = "CC";
+    String ISOCODE3_COCOS_ISLANDS = "CCK";
+
+    String ISOCODE_COLOMBIA = "CO";
+    String ISOCODE3_COLOMBIA = "COL";
+
+    String ISOCODE_COMOROS = "KM";
+    String ISOCODE3_COMOROS = "COM";
+
+    String ISOCODE_COOK_ISLANDS = "CK";
+    String ISOCODE3_COOK_ISLANDS = "COK";
+
+    String ISOCODE_COSTA_RICA = "CR";
+    String ISOCODE3_COSTA_RICA = "CRI";
+
+    String ISOCODE_CROATIA = "HR";
+    String ISOCODE3_CROATIA = "HRV";
+
+    String ISOCODE_CUBA = "CU";
+    String ISOCODE3_CUBA = "CUB";
+
+    String ISOCODE_CURACAO = "CW";
+    String ISOCODE3_CURACAO = "CUW";
+
+    String ISOCODE_CYPRUS = "CY";
+    String ISOCODE3_CYPRUS = "CYP";
+
+    String ISOCODE_CZECH_REPUBLIC = "CZ";
+    String ISOCODE3_CZECH_REPUBLIC = "CZE";
+
+    String ISOCODE_DEMOCRATIC_REPUBLIC_OF_CONGO = "CD";
+    String ISOCODE3_DEMOCRATIC_REPUBLIC_OF_CONGO = "COD";
+
+    String ISOCODE_DENMARK = "DK";
+    String ISOCODE3_DENMARK = "DNK";
+
+    String ISOCODE_DJIBOUTI = "DJ";
+    String ISOCODE3_DJIBOUTI = "DJI";
+
+    String ISOCODE_DOMINICA = "DM";
+    String ISOCODE3_DOMINICA = "DMA";
+
+    String ISOCODE_DOMINICAN_REPUBLIC = "DO";
+    String ISOCODE3_DOMINICAN_REPUBLIC = "DOM";
+
+    String ISOCODE_EAST_TIMOR = "TL";
+    String ISOCODE3_EAST_TIMOR = "TLS";
+
+    String ISOCODE_ECUADOR = "EC";
+    String ISOCODE3_ECUADOR = "ECU";
+
+    String ISOCODE_EGYPT = "EG";
+    String ISOCODE3_EGYPT = "EGY";
+
+    String ISOCODE_EL_SALVADOR = "SV";
+    String ISOCODE3_EL_SALVADOR = "SLV";
+
+    String ISOCODE_EQUATORIAL_GUINEA = "GQ";
+    String ISOCODE3_EQUATORIAL_GUINEA = "GNQ";
+
+    String ISOCODE_ERITREA = "ER";
+    String ISOCODE3_ERITREA = "ERI";
+
+    String ISOCODE_ESTONIA = "EE";
+    String ISOCODE3_ESTONIA = "EST";
+
+    String ISOCODE_ETHIOPIA = "ET";
+    String ISOCODE3_ETHIOPIA = "ETH";
+
+    String ISOCODE_FALKLAND_ISLANDS = "FK";
+    String ISOCODE3_FALKLAND_ISLANDS = "FLK";
+
+    String ISOCODE_FAROE_ISLANDS = "FO";
+    String ISOCODE3_FAROE_ISLANDS = "FRO";
+
+    String ISOCODE_FIJI = "FJ";
+    String ISOCODE3_FIJI = "FJI";
+
+    String ISOCODE_FINLAND = "FI";
+    String ISOCODE3_FINLAND = "FIN";
+
+    String ISOCODE_FRANCE = "FR";
+    String ISOCODE3_FRANCE = "FRA";
+
+    String ISOCODE_FRENCH_POLYNESIA = "PF";
+    String ISOCODE3_FRENCH_POLYNESIA = "PYF";
+
+    String ISOCODE_GABON = "GA";
+    String ISOCODE3_GABON = "GAB";
+
+    String ISOCODE_GAMBIA = "GM";
+    String ISOCODE3_GAMBIA = "GMB";
+
+    String ISOCODE_GEORGIA = "GE";
+    String ISOCODE3_GEORGIA = "GEO";
+
+    String ISOCODE_GERMANY = "DE";
+    String ISOCODE3_GERMANY = "DEU";
+
+    String ISOCODE_GHANA = "GH";
+    String ISOCODE3_GHANA = "GHA";
+
+    String ISOCODE_GIBRALTAR = "GI";
+    String ISOCODE3_GIBRALTAR = "GIB";
+
+    String ISOCODE_GREECE = "GR";
+    String ISOCODE3_GREECE = "GRC";
+
+    String ISOCODE_GREENLAND = "GL";
+    String ISOCODE3_GREENLAND = "GRL";
+
+    String ISOCODE_GRENADA = "GD";
+    String ISOCODE3_GRENADA = "GRD";
+
+    String ISOCODE_GUAM = "GU";
+    String ISOCODE3_GUAM = "GUM";
+
+    String ISOCODE_GUATEMALA = "GT";
+    String ISOCODE3_GUATEMALA = "GTM";
+
+    String ISOCODE_GUERNSEY = "GG";
+    String ISOCODE3_GUERNSEY = "GGY";
+
+    String ISOCODE_GUINEA = "GN";
+    String ISOCODE3_GUINEA = "GIN";
+
+    String ISOCODE_GUINEA_BISSAU = "GW";
+    String ISOCODE3_GUINEA_BISSAU = "GNB";
+
+    String ISOCODE_GUYANA = "GY";
+    String ISOCODE3_GUYANA = "GUY";
+
+    String ISOCODE_HAITI = "HT";
+    String ISOCODE3_HAITI = "HTI";
+
+    String ISOCODE_HONDURAS = "HN";
+    String ISOCODE3_HONDURAS = "HND";
+
+    String ISOCODE_HONGKONG = "HK";
+    String ISOCODE3_HONGKONG = "HKG";
+
+    String ISOCODE_HUNGARY = "HU";
+    String ISOCODE3_HUNGARY = "HUN";
+
+    String ISOCODE_ICELAND = "IS";
+    String ISOCODE3_ICELAND = "ISL";
+
+    String ISOCODE_INDIA = "IN";
+    String ISOCODE3_INDIA = "IND";
+
+    String ISOCODE_INDONESIA = "ID";
+    String ISOCODE3_INDONESIA = "IDN";
+
+    String ISOCODE_IRAN = "IR";
+    String ISOCODE3_IRAN = "IRN";
+
+    String ISOCODE_IRAQ = "IQ";
+    String ISOCODE3_IRAQ = "IRQ";
+
+    String ISOCODE_IRELAND = "IE";
+    String ISOCODE3_IRELAND = "IRL";
+
+    String ISOCODE_ISLE_OF_MAN = "IM";
+    String ISOCODE3_ISLE_OF_MAN = "IMN";
+
+    String ISOCODE_ISRAEL = "IL";
+    String ISOCODE3_ISRAEL = "ISR";
+
+    String ISOCODE_ITALY = "IT";
+    String ISOCODE3_ITALY = "ITA";
+
+    String ISOCODE_IVORY_COAST = "CI";
+    String ISOCODE3_IVORY_COAST  = "CIV";
+
+    String ISOCODE_JAMAICA = "JM";
+    String ISOCODE3_JAMAICA = "JAM";
+
+    String ISOCODE_JAPAN = "JP";
+    String ISOCODE3_JAPAN = "JPN";
+
+    String ISOCODE_JERSEY = "JE";
+    String ISOCODE3_JERSEY = "JEY";
+
+    String ISOCODE_JORDAN = "JO";
+    String ISOCODE3_JORDAN = "JOR";
+
+    String ISOCODE_KAZAKHSTAN = "KZ";
+    String ISOCODE3_KAZAKHSTAN = "KAZ";
+
+    String ISOCODE_KENYA = "KE";
+    String ISOCODE3_KENYA = "KEN";
+
+    String ISOCODE_KIRIBATI = "KI";
+    String ISOCODE3_KIRIBATI = "KIR";
+
+    String ISOCODE_KOSOVO = "XK";
+    String ISOCODE3_KOSOVO = "XKX";
+
+    String ISOCODE_KUWAIT = "KW";
+    String ISOCODE3_KUWAIT = "KWT";
+
+    String ISOCODE_KYRGYZSTAN = "KG";
+    String ISOCODE3_KYRGYZSTAN = "KGZ";
+
+    String ISOCODE_LAOS = "LA";
+    String ISOCODE3_LAOS = "LAO";
+
+    String ISOCODE_LATVIA = "LV";
+    String ISOCODE3_LATVIA = "LVA";
+
+    String ISOCODE_LEBANON = "LB";
+    String ISOCODE3_LEBANON = "LBN";
+
+    String ISOCODE_LESOTHO = "LS";
+    String ISOCODE3_LESOTHO = "LSO";
+
+    String ISOCODE_LIBERIA = "LR";
+    String ISOCODE3_LIBERIA = "LBR";
+
+    String ISOCODE_LIBYA = "LY";
+    String ISOCODE3_LIBYA = "LBY";
+
+    String ISOCODE_LIECHTENSTEIN = "LI";
+    String ISOCODE3_LIECHTENSTEIN = "LIE";
+
+    String ISOCODE_LITHUANIA = "LT";
+    String ISOCODE3_LITHUANIA = "LTU";
+
+    String ISOCODE_LUXEMBOURG = "LU";
+    String ISOCODE3_LUXEMBOURG = "LUX";
+
+    String ISOCODE_MACAU = "MO";
+    String ISOCODE3_MACAU = "MAC";
+
+    String ISOCODE_MACEDONIA = "MK";
+    String ISOCODE3_MACEDONIA = "MKD";
+
+    String ISOCODE_MADAGASCAR = "MG";
+    String ISOCODE3_MADAGASCAR = "MDG";
+
+    String ISOCODE_MALAWI = "MW";
+    String ISOCODE3_MALAWI = "MWI";
+
+    String ISOCODE_MALAYSIA = "MY";
+    String ISOCODE3_MALAYSIA = "MYS";
+
+    String ISOCODE_MALDIVES = "MV";
+    String ISOCODE3_MALDIVES = "MDV";
+
+    String ISOCODE_MALI = "ML";
+    String ISOCODE3_MALI = "MLI";
+
+    String ISOCODE_MALTA = "MT";
+    String ISOCODE3_MALTA = "MLT";
+
+    String ISOCODE_MARSHALL_ISLANDS = "MH";
+    String ISOCODE3_MARSHALL_ISLANDS = "MHL";
+
+    String ISOCODE_MAURITANIA = "MR";
+    String ISOCODE3_MAURITANIA = "MRT";
+
+    String ISOCODE_MAURITIUS = "MU";
+    String ISOCODE3_MAURITIUS = "MUS";
+
+    String ISOCODE_MAYOTTE = "YT";
+    String ISOCODE3_MAYOTTE = "MYT";
+
+    String ISOCODE_MEXICO = "MX";
+    String ISOCODE3_MEXICO = "MEX";
+
+    String ISOCODE_MICRONESIA = "FM";
+    String ISOCODE3_MICRONESIA = "FSM";
+
+    String ISOCODE_MOLDOVA = "MD";
+    String ISOCODE3_MOLDOVA = "MDA";
+
+    String ISOCODE_MONACO = "MC";
+    String ISOCODE3_MONACO = "MCO";
+
+    String ISOCODE_MONGOLIA = "MN";
+    String ISOCODE3_MONGOLIA = "MNG";
+
+    String ISOCODE_MONTENEGRO = "ME";
+    String ISOCODE3_MONTENEGRO = "MNE";
+
+    String ISOCODE_MONTSERRAT = "MS";
+    String ISOCODE3_MONTSERRAT = "MSR";
+
+    String ISOCODE_MOROCCO = "MA";
+    String ISOCODE3_MOROCCO = "MAR";
+
+    String ISOCODE_MOZAMBIQUE = "MZ";
+    String ISOCODE3_MOZAMBIQUE = "MOZ";
+
+    String ISOCODE_MYANMAR = "MM";
+    String ISOCODE3_MYANMAR = "MMR";
+
+    String ISOCODE_NAMIBIA = "NA";
+    String ISOCODE3_NAMIBIA = "NAM";
+
+    String ISOCODE_NAURU = "NR";
+    String ISOCODE3_NAURU = "NRU";
+
+    String ISOCODE_NEPAL = "NP";
+    String ISOCODE3_NEPAL = "NPL";
+
+    String ISOCODE_NETHERLANDS = "NL";
+    String ISOCODE3_NETHERLANDS = "NLD";
+
+    String ISOCODE_NETHERLANDS_ANTILLES = "AN";
+    String ISOCODE3_NETHERLANDS_ANTILLES = "ANT";
+
+    String ISOCODE_NEW_CALEDONIA = "NC";
+    String ISOCODE3_NEW_CALEDONIA = "NCL";
+
+    String ISOCODE_NEW_ZEALAND = "NZ";
+    String ISOCODE3_NEW_ZEALAND = "NZL";
+
+    String ISOCODE_NICARAGUA = "NI";
+    String ISOCODE3_NICARAGUA = "NIC";
+
+    String ISOCODE_NIGER = "NE";
+    String ISOCODE3_NIGER = "NER";
+
+    String ISOCODE_NIGERIA = "NG";
+    String ISOCODE3_NIGERIA = "NGA";
+
+    String ISOCODE_NIUE = "NU";
+    String ISOCODE3_NIUE = "NIU";
+
+    String ISOCODE_NORTH_KOREA = "KP";
+    String ISOCODE3_NORTH_KOREA = "PRK";
+
+    String ISOCODE_NORTHERN_MARIANA_ISLANDS = "MP";
+    String ISOCODE3_NORTHERN_MARIANA_ISLANDS = "MNP";
+
+    String ISOCODE_NORWAY = "NO";
+    String ISOCODE3_NORWAY = "NOR";
+
+    String ISOCODE_OMAN = "OM";
+    String ISOCODE3_OMAN = "OMN";
+
+    String ISOCODE_PAKISTAN = "PK";
+    String ISOCODE3_PAKISTAN = "PAK";
+
+    String ISOCODE_PALAU = "PW";
+    String ISOCODE3_PALAU = "PLW";
+
+    String ISOCODE_PALESTINE = "PS";
+    String ISOCODE3_PALESTINE = "PSE";
+
+    String ISOCODE_PANAMA = "PA";
+    String ISOCODE3_PANAMA = "PAN";
+
+    String ISOCODE_PAPUA_NEW_GUINEA = "PG";
+    String ISOCODE3_PAPUA_NEW_GUINEA = "PNG";
+
+    String ISOCODE_PARAGUAY = "PY";
+    String ISOCODE3_PARAGUAY = "PRY";
+
+    String ISOCODE_PERU = "PE";
+    String ISOCODE3_PERU = "PER";
+
+    String ISOCODE_PHILIPPINES = "PH";
+    String ISOCODE3_PHILIPPINES = "PHL";
+
+    String ISOCODE_PITCAIRN = "PN";
+    String ISOCODE3_PITCAIRN = "PCN";
+
+    String ISOCODE_POLAND = "PL";
+    String ISOCODE3_POLAND = "POL";
+
+    String ISOCODE_PORTUGAL = "PT";
+    String ISOCODE3_PORTUGAL = "PRT";
+
+    String ISOCODE_PUERTO_RICO = "PR";
+    String ISOCODE3_PUERTO_RICO = "PRI";
+
+    String ISOCODE_QATAR = "QA";
+    String ISOCODE3_QATAR = "QAT";
+
+    String ISOCODE_REPUBLIC_OF_THE_CONGO = "CG";
+    String ISOCODE3_REPUBLIC_OF_THE_CONGO = "COG";
+
+    String ISOCODE_REUNION = "RE";
+    String ISOCODE3_REUNION = "REU";
+
+    String ISOCODE_ROMANIA = "RO";
+    String ISOCODE3_ROMANIA = "ROU";
+
+    String ISOCODE_RUSSIA = "RU";
+    String ISOCODE3_RUSSIA = "RUS";
+
+    String ISOCODE_RWANDA = "RW";
+    String ISOCODE3_RWANDA = "RWA";
+
+    String ISOCODE_SAINT_BARTHELEMY = "BL";
+    String ISOCODE3_SAINT_BARTHELEMY = "BLM";
+
+    String ISOCODE_SAINT_HELENA = "SH";
+    String ISOCODE3_SAINT_HELENA = "SHN";
+
+    String ISOCODE_SAINT_KITTS_AND_NEVIS = "KN";
+    String ISOCODE3_SAINT_KITTS_AND_NEVIS = "KNA";
+
+    String ISOCODE_SAINT_LUCIA = "LC";
+    String ISOCODE3_SAINT_LUCIA = "LCA";
+
+    String ISOCODE_SAINT_MARTIN = "MF";
+    String ISOCODE3_SAINT_MARTIN = "MAF";
+
+    String ISOCODE_SAINT_PIERRE_AND_MIQUELON = "PM";
+    String ISOCODE3_SAINT_PIERRE_AND_MIQUELON = "SPM";
+
+    String ISOCODE_SAINT_VINCENT_AND_GRENADINES = "VC";
+    String ISOCODE3_SAINT_VINCENT_AND_GRENADINES = "VCT";
+
+    String ISOCODE_SAMOA = "WS";
+    String ISOCODE3_SAMOA = "WSM";
+
+    String ISOCODE_SAN_MARINO = "SM";
+    String ISOCODE3_SAN_MARINO = "SMR";
+
+    String ISOCODE_SAO_TOME_AND_PRINCIPE = "ST";
+    String ISOCODE3_SAO_TOME_AND_PRINCIPE = "STP";
+
+    String ISOCODE_SAUDI_ARABIA = "SA";
+    String ISOCODE3_SAUDI_ARABIA = "SAU";
+
+    String ISOCODE_SENEGAL = "SN";
+    String ISOCODE3_SENEGAL = "SEN";
+
+    String ISOCODE_SERBIA = "RS";
+    String ISOCODE3_SERBIA = "SRB";
+
+    String ISOCODE_SEYCHELLES = "SC";
+    String ISOCODE3_SEYCHELLES = "SYC";
+
+    String ISOCODE_SIERRA_LEONE = "SL";
+    String ISOCODE3_SIERRA_LEONE = "SLE";
+
+    String ISOCODE_SINGAPORE = "SG";
+    String ISOCODE3_SINGAPORE = "SGP";
+
+    String ISOCODE_SINT_MAARTEN = "SX";
+    String ISOCODE3_SINT_MAARTEN = "SXM";
+
+    String ISOCODE_SLOVAKIA = "SK";
+    String ISOCODE3_SLOVAKIA = "SVK";
+
+    String ISOCODE_SLOVENIA = "SI";
+    String ISOCODE3_SLOVENIA = "SVN";
+
+    String ISOCODE_SOLOMON_ISLANDS = "SB";
+    String ISOCODE3_SOLOMON_ISLANDS = "SLB";
+
+    String ISOCODE_SOMALIA = "SO";
+    String ISOCODE3_SOMALIA = "SOM";
+
+    String ISOCODE_SOUTH_AFRICA = "ZA";
+    String ISOCODE3_SOUTH_AFRICA = "ZAF";
+
+    String ISOCODE_SOUTH_KOREA = "KR";
+    String ISOCODE3_SOUTH_KOREA = "KOR";
+
+    String ISOCODE_SOUTH_SUDAN = "SS";
+    String ISOCODE3_SOUTH_SUDAN = "SSD";
+
+    String ISOCODE_SPAIN = "ES";
+    String ISOCODE3_SPAIN = "ESP";
+
+    String ISOCODE_SRI_LANKA = "LK";
+    String ISOCODE3_SRI_LANKA = "LKA";
+
+    String ISOCODE_SUDAN = "SD";
+    String ISOCODE3_SUDAN = "SDN";
+
+    String ISOCODE_SURINAME = "SR";
+    String ISOCODE3_SURINAME = "SUR";
+
+    String ISOCODE_SVALBARD_AND_JAN_MAYEN = "SJ";
+    String ISOCODE3_SVALBARD_AND_JAN_MAYEN = "SJM";
+
+    String ISOCODE_SWAZILAND = "SZ";
+    String ISOCODE3_SWAZILAND = "SWZ";
+
+    String ISOCODE_SWEDEN = "SE";
+    String ISOCODE3_SWEDEN = "SWE";
+
+    String ISOCODE_SWITZERLAND = "CH";
+    String ISOCODE3_SWITZERLAND = "CHE";
+
+    String ISOCODE_SYRIA = "SY";
+    String ISOCODE3_SYRIA = "SYR";
+
+    String ISOCODE_TAIWAN = "TW";
+    String ISOCODE3_TAIWAN = "TWN";
+
+    String ISOCODE_TAJIKISTAN = "TJ";
+    String ISOCODE3_TAJIKISTAN = "TJK";
+
+    String ISOCODE_TANZANIA = "TZ";
+    String ISOCODE3_TANZANIA = "TZA";
+
+    String ISOCODE_THAILAND = "TH";
+    String ISOCODE3_THAILAND = "THA";
+
+    String ISOCODE_TOGO = "TG";
+    String ISOCODE3_TOGO = "TGO";
+
+    String ISOCODE_TOKELAU = "TK";
+    String ISOCODE3_TOKELAU = "TKL";
+
+    String ISOCODE_TONGA = "TO";
+    String ISOCODE3_TONGA = "TON";
+
+    String ISOCODE_TRINIDAD_AND_TOBAGO = "TT";
+    String ISOCODE3_TRINIDAD_AND_TOBAGO = "TTO";
+
+    String ISOCODE_TUNISIA = "TN";
+    String ISOCODE3_TUNISIA = "TUN";
+
+    String ISOCODE_TURKEY = "TR";
+    String ISOCODE3_TURKEY = "TUR";
+
+    String ISOCODE_TURKMENISTAN = "TM";
+    String ISOCODE3_TURKMENISTAN = "TKM";
+
+    String ISOCODE_TURK_AND_CAICOS_ISLANDS = "TC";
+    String ISOCODE3_TURK_AND_CAICOS_ISLANDS = "TCA";
+
+    String ISOCODE_TUVALU = "TV";
+    String ISOCODE3_TUVALU = "TUV";
+
+    String ISOCODE_US_VIRGIN_ISLANDS = "VI";
+    String ISOCODE3_US_VIRGIN_ISLANDS = "VIR";
+
+    String ISOCODE_UGANDA = "UG";
+    String ISOCODE3_UGANDA = "UGA";
+
+    String ISOCODE_UKRAINE = "UA";
+    String ISOCODE3_UKRAINE = "UKR";
+
+    String ISOCODE_UNITED_ARAB_EMIRATES = "AE";
+    String ISOCODE3_UNITED_ARAB_EMIRATES = "ARE";
+
+    String ISOCODE_UNITED_KINGDOM = "GB";
+    String ISOCODE3_UNITED_KINGDOM = "GBR";
+
+    String ISOCODE_UNITED_STATES = "US";
+    String ISOCODE3_UNITED_STATES = "USA";
+
+    String ISOCODE_URUGUAY = "UY";
+    String ISOCODE3_URUGUAY = "URY";
+
+    String ISOCODE_UZBEKISTAN = "UZ";
+    String ISOCODE3_UZBEKISTAN = "UZB";
+
+    String ISOCODE_VANUATU = "VU";
+    String ISOCODE3_VANUATU = "VUT";
+
+    String ISOCODE_VATICAN = "VA";
+    String ISOCODE3_VATICAN = "VAT";
+
+    String ISOCODE_VENEZUELA = "VE";
+    String ISOCODE3_VENEZUELA = "VEN";
+
+    String ISOCODE_VIETNAM = "VN";
+    String ISOCODE3_VIETNAM = "VNM";
+
+    String ISOCODE_WALLIS_AND_FUTUNA = "WF";
+    String ISOCODE3_WALLIS_AND_FUTUNA = "WLF";
+
+    String ISOCODE_WESTERN_SAHARA = "EH";
+    String ISOCODE3_WESTERN_SAHARA = "ESH";
+
+    String ISOCODE_YEMEN = "YE";
+    String ISOCODE3_YEMEN = "YEM";
+
+    String ISOCODE_ZAMBIA = "ZM";
+    String ISOCODE3_ZAMBIA = "ZMB";
+
+    String ISOCODE_ZIMBABWE = "ZW";
+    String ISOCODE3_ZIMBABWE = "ZWE";
+}

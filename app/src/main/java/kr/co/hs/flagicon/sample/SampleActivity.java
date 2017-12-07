@@ -5,6 +5,7 @@ import android.support.annotation.Nullable;
 import android.support.v4.os.LocaleListCompat;
 import android.util.Log;
 import android.widget.ImageView;
+import android.widget.TextView;
 
 import java.util.Currency;
 import java.util.Locale;
@@ -27,11 +28,12 @@ public class SampleActivity extends HsActivity {
 
 
         ImageView imageView = findViewById(R.id.ImageView);
-
+        TextView textView = findViewById(R.id.TextView);
 
         Country country = new Country(Country.getAvailableCountries()[40]);
         Flag flag = new Flag(country);
         imageView.setImageResource(flag.getFlagResourceFlat());
 
+        textView.setText(country.getCountryNameResource());
     }
 }

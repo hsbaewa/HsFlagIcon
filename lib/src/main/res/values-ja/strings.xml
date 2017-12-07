@@ -55,6 +55,7 @@
     <string name="CPV">カーボベルデ</string>
     <string name="CRI">コスタリカ</string>
     <string name="CUB">キューバの</string>
+    <string name="CUW">キュラソー</string>
     <string name="CXR">クリスマス島</string>
     <string name="CYM">ケイマン諸島</string>
     <string name="CYP">キプロス</string>
@@ -205,12 +206,14 @@
     <string name="SOM">ソマリア</string>
     <string name="SPM">サンピエールクローン</string>
     <string name="SRB">セルビア</string>
+    <string name="SSD">南スーダン</string>
     <string name="STP">サントメプリンシペ</string>
     <string name="SUR">スリナム</string>
     <string name="SVK">スロバキア</string>
     <string name="SVN">スロベニア</string>
     <string name="SWE">スウェーデン</string>
     <string name="SWZ">スワジランド</string>
+    <string name="SXM">シントマールテン</string>
     <string name="SYC">セイシェル</string>
     <string name="SYR">シリア・アラブ共和国</string>
     <string name="TCA">タークス・カイコス諸島</string>
@@ -243,6 +246,7 @@
     <string name="VUT">バヌアツの</string>
     <string name="WLF">ウォリス・フツナ</string>
     <string name="WSM">領</string>
+    <string name="XKX">コソボ</string>
     <string name="YEM">イエメン</string>
     <string name="ZAF">南アフリカ</string>
     <string name="ZMB">ザンビア</string>

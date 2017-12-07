@@ -55,6 +55,7 @@
     <string name="CPV">Cape Verde</string>
     <string name="CRI">Costa Rica</string>
     <string name="CUB">Cuba</string>
+    <string name="CUW">Curacao</string>
     <string name="CXR">Christmas Island</string>
     <string name="CYM">Cayman Islands</string>
     <string name="CYP">Cyprus</string>
@@ -205,12 +206,14 @@
     <string name="SOM">Somalia</string>
     <string name="SPM">Saint Pierre and Miquelon</string>
     <string name="SRB">Serbia</string>
+    <string name="SSD">South Sudan</string>
     <string name="STP">Sao Tome and Principe</string>
     <string name="SUR">Suriname</string>
     <string name="SVK">Slovakia</string>
     <string name="SVN">Slovenia</string>
     <string name="SWE">Sweden</string>
     <string name="SWZ">Swaziland</string>
+    <string name="SXM">Sint Maarten</string>
     <string name="SYC">Seychelles</string>
     <string name="SYR">Syrian Arab Republic</string>
     <string name="TCA">Turks and Caicos Islands</string>
@@ -243,6 +246,7 @@
     <string name="VUT">Vanuatu</string>
     <string name="WLF">Wallis and Futuna</string>
     <string name="WSM">Samoa</string>
+    <string name="XKX">Kosovo</string>
     <string name="YEM">Yemen</string>
     <string name="ZAF">South Africa</string>
     <string name="ZMB">Zambia</string>

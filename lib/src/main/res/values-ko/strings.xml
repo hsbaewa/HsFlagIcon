@@ -55,6 +55,7 @@
     <string name="CPV">카보베르데</string>
     <string name="CRI">코스타리카</string>
     <string name="CUB">쿠바</string>
+    <string name="CUW">퀴라소</string>
     <string name="CXR">크리스마스 섬</string>
     <string name="CYM">케이맨 제도</string>
     <string name="CYP">키프로스</string>
@@ -205,12 +206,14 @@
     <string name="SOM">소말리아</string>
     <string name="SPM">생 피에르 미 클론</string>
     <string name="SRB">세르비아</string>
+    <string name="SSD">남 수단</string>
     <string name="STP">상투 메 프린시 페</string>
     <string name="SUR">수리남</string>
     <string name="SVK">슬로바키아</string>
     <string name="SVN">슬로베니아</string>
     <string name="SWE">스웨덴</string>
     <string name="SWZ">스와질란드</string>
+    <string name="SXM">신트마르턴</string>
     <string name="SYC">세이셸</string>
     <string name="SYR">시리아 아랍 공화국</string>
     <string name="TCA">터크스 케이커스 제도</string>
@@ -243,6 +246,7 @@
     <string name="VUT">바누아투</string>
     <string name="WLF">월리스 푸 투나</string>
     <string name="WSM">사모아</string>
+    <string name="XKX">코소보</string>
     <string name="YEM">예멘</string>
     <string name="ZAF">남아프리카 공화국</string>
     <string name="ZMB">잠비아</string>

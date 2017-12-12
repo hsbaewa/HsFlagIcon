@@ -37,6 +37,6 @@ public class SampleActivity extends HsActivity {
 
         textView.setText(country.getCountryNameResource());
 
-        textViewCurrencyName.setText(country.getCountryCurrencyNameResource());
+        textViewCurrencyName.setText(country.getCurrencyUnitResource());
     }
 }

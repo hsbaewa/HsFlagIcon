@@ -256,6 +256,7 @@ public class Country implements CountryConst, CurrencyConst{
     String countryISOCode;
     String countryCurrency;
     int countryNameResource;
+    int countryCurrencyNameResource;
 
     public Country(String countryISOCode) {
         initWithCountryISOCode(countryISOCode);
@@ -273,6 +274,10 @@ public class Country implements CountryConst, CurrencyConst{
         return countryNameResource;
     }
 
+    public int getCountryCurrencyNameResource() {
+        return countryCurrencyNameResource;
+    }
+
     private Country initWithCountryISOCode(String code){
         switch (code){
             case ISOCODE_AFGHANISTAN:
@@ -280,6 +285,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_AFGHANISTAN;
                 this.countryCurrency = CURRENCY_AFGHAN_AFGHANI;
                 this.countryNameResource = R.string.AFG;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_AFN;
                 break;
             }
             case ISOCODE_ALBANIA:
@@ -287,6 +293,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_ALBANIA;
                 this.countryCurrency = CURRENCY_ALBANIAN_LEK;
                 this.countryNameResource = R.string.ALB;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_ALL;
                 break;
             }
             case ISOCODE_ALGERIA:
@@ -294,6 +301,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_ALGERIA;
                 this.countryCurrency = CURRENCY_ALGERIAN_DINAR;
                 this.countryNameResource = R.string.DZA;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_DZD;
                 break;
             }
             case ISOCODE_AMERICAN_SAMOA:
@@ -301,6 +309,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_AMERICAN_SAMOA;
                 this.countryCurrency = CURRENCY_SAMOAN_TALA;
                 this.countryNameResource = R.string.ASM;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_WST;
                 break;
             }
             case ISOCODE_ANDORRA:
@@ -308,6 +317,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_ANDORRA;
                 this.countryCurrency = CURRENCY_EURO;
                 this.countryNameResource = R.string.AND;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_EUR;
                 break;
             }
             case ISOCODE_ANGOLA:
@@ -315,6 +325,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_ANGOLA;
                 this.countryCurrency = CURRENCY_ANGOLAN_KWANZA;
                 this.countryNameResource = R.string.AGO;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_AOA;
                 break;
             }
             case ISOCODE_ANGUILLA:
@@ -322,6 +333,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_ANGUILLA;
                 this.countryCurrency = CURRENCY_EAST_CARIBBEAN_DOLLAR;
                 this.countryNameResource = R.string.AIA;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_XCD;
                 break;
             }
             case ISOCODE_ANTARCTICA:
@@ -329,6 +341,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_ANTARCTICA;
                 this.countryCurrency = CURRENCY_EAST_CARIBBEAN_DOLLAR;
                 this.countryNameResource = R.string.ATA;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_XCD;
                 break;
             }
             case ISOCODE_ANTIGUA:
@@ -336,6 +349,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_ANTIGUA;
                 this.countryCurrency = CURRENCY_EAST_CARIBBEAN_DOLLAR;
                 this.countryNameResource = R.string.ATG;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_XCD;
                 break;
             }
             case ISOCODE_ARGENTINA:
@@ -343,6 +357,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_ARGENTINA;
                 this.countryCurrency = CURRENCY_ARGENTINE_PESO;
                 this.countryNameResource = R.string.ARG;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_ARS;
                 break;
             }
             case ISOCODE_ARMENIA:
@@ -350,6 +365,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_ARMENIA;
                 this.countryCurrency = CURRENCY_ARMENIAN_DRAM;
                 this.countryNameResource = R.string.ARM;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_AMD;
                 break;
             }
             case ISOCODE_ARUBA:
@@ -357,6 +373,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_ARUBA;
                 this.countryCurrency = CURRENCY_ARUBAN_FLORIN;
                 this.countryNameResource = R.string.ABW;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_AWG;
                 break;
             }
             case ISOCODE_AUSTRALIA:
@@ -364,6 +381,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_AUSTRALIA;
                 this.countryCurrency = CURRENCY_AUSTRALIAN_DOLLAR;
                 this.countryNameResource = R.string.AUS;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_AUD;
                 break;
             }
             case ISOCODE_AUSTRIA:
@@ -371,6 +389,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_AUSTRIA;
                 this.countryCurrency = CURRENCY_EURO;
                 this.countryNameResource = R.string.AUT;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_EUR;
                 break;
             }
             case ISOCODE_AZERBAIJAN:
@@ -378,6 +397,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_AZERBAIJAN;
                 this.countryCurrency = CURRENCY_AZERBAIJANI_MANAT;
                 this.countryNameResource = R.string.AZE;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_AZN;
                 break;
             }
             case ISOCODE_BAHAMAS:
@@ -385,6 +405,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_BAHAMAS;
                 this.countryCurrency = CURRENCY_BAHAMIAN_DOLLAR;
                 this.countryNameResource = R.string.BHS;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_BSD;
                 break;
             }
             case ISOCODE_BAHRAIN:
@@ -392,6 +413,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_BAHRAIN;
                 this.countryCurrency = CURRENCY_BAHRAINI_DINAR;
                 this.countryNameResource = R.string.BHR;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_BHD;
                 break;
             }
             case ISOCODE_BANGLADESH:
@@ -399,6 +421,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_BANGLADESH;
                 this.countryCurrency = CURRENCY_BANGLADESHI_TAKA;
                 this.countryNameResource = R.string.BGD;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_BDT;
                 break;
             }
             case ISOCODE_BARBADOS:
@@ -406,6 +429,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_BARBADOS;
                 this.countryCurrency = CURRENCY_BARBADOS_DOLLAR;
                 this.countryNameResource = R.string.BRB;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_BBD;
                 break;
             }
             case ISOCODE_BELARUS:
@@ -413,6 +437,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_BELARUS;
                 this.countryCurrency = CURRENCY_NEW_BELARUSIAN_RUBLE;
                 this.countryNameResource = R.string.BLR;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_BYR;
                 break;
             }
             case ISOCODE_BELGIUM:
@@ -420,6 +445,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_BELGIUM;
                 this.countryCurrency = CURRENCY_EURO;
                 this.countryNameResource = R.string.BEL;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_EUR;
                 break;
             }
             case ISOCODE_BELIZE:
@@ -427,6 +453,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_BELIZE;
                 this.countryCurrency = CURRENCY_BELIZE_DOLLAR;
                 this.countryNameResource = R.string.BLZ;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_BZD;
                 break;
             }
             case ISOCODE_BENIN:
@@ -434,6 +461,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_BENIN;
                 this.countryCurrency = CURRENCY_CFA_FRANC_BCEAO;
                 this.countryNameResource = R.string.BEN;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_XOF;
                 break;
             }
             case ISOCODE_BERMUDA:
@@ -441,6 +469,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_BERMUDA;
                 this.countryCurrency = CURRENCY_BERMUDIAN_DOLLAR;
                 this.countryNameResource = R.string.BMU;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_BMD;
                 break;
             }
             case ISOCODE_BHUTAN:
@@ -448,6 +477,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_BHUTAN;
                 this.countryCurrency = CURRENCY_BHUTANESE_NGULTRUM;
                 this.countryNameResource = R.string.BTN;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_BTN;
                 break;
             }
             case ISOCODE_BOLIVIA:
@@ -455,6 +485,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_BOLIVIA;
                 this.countryCurrency = CURRENCY_BOLIVIANO;
                 this.countryNameResource = R.string.BOL;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_BOB;
                 break;
             }
             case ISOCODE_BOSNIA_AND_HERZEGOVINA:
@@ -462,6 +493,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_BOSNIA_AND_HERZEGOVINA;
                 this.countryCurrency = CURRENCY_BOSNIA_AND_HERZEGOVINA_CONVERTIBLE_MARK;
                 this.countryNameResource = R.string.BIH;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_BAM;
                 break;
             }
             case ISOCODE_BOTSWANA:
@@ -469,6 +501,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_BOTSWANA;
                 this.countryCurrency = CURRENCY_BOTSWANA_PULA;
                 this.countryNameResource = R.string.BWA;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_BWP;
                 break;
             }
             case ISOCODE_BRAZIL:
@@ -476,6 +509,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_BRAZIL;
                 this.countryCurrency = CURRENCY_BRAZILIAN_REAL;
                 this.countryNameResource = R.string.BRA;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_BRL;
                 break;
             }
             case ISOCODE_BRITISH_INDIAN_OCEAN_TERRITORY:
@@ -483,6 +517,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_BRITISH_INDIAN_OCEAN_TERRITORY;
                 this.countryCurrency = CURRENCY_UNITED_STATES_DOLLAR;
                 this.countryNameResource = R.string.IOT;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_USD;
                 break;
             }
             case ISOCODE_BRITISH_VIRGIN_ISLANDS:
@@ -490,6 +525,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_BRITISH_VIRGIN_ISLANDS;
                 this.countryCurrency = CURRENCY_UNITED_STATES_DOLLAR;
                 this.countryNameResource = R.string.VGB;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_USD;
                 break;
             }
             case ISOCODE_BRUNEI:
@@ -497,6 +533,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_BRUNEI;
                 this.countryCurrency = CURRENCY_BRUNEI_DOLLAR;
                 this.countryNameResource = R.string.BRN;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_BND;
                 break;
             }
             case ISOCODE_BULGARIA:
@@ -504,6 +541,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_BULGARIA;
                 this.countryCurrency = CURRENCY_BULGARIAN_LEV;
                 this.countryNameResource = R.string.BGR;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_BGN;
                 break;
             }
             case ISOCODE_BURKINA_FASO:
@@ -511,6 +549,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_BURKINA_FASO;
                 this.countryCurrency = CURRENCY_CFA_FRANC_BCEAO;
                 this.countryNameResource = R.string.BFA;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_XOF;
                 break;
             }
             case ISOCODE_BURUNDI:
@@ -518,6 +557,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_BURUNDI;
                 this.countryCurrency = CURRENCY_BURUNDIAN_FRANC;
                 this.countryNameResource = R.string.BDI;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_BIF;
                 break;
             }
             case ISOCODE_CAMBODIA:
@@ -525,6 +565,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_CAMBODIA;
                 this.countryCurrency = CURRENCY_CAMBODIAN_RIEL;
                 this.countryNameResource = R.string.KHM;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_KHR;
                 break;
             }
             case ISOCODE_CAMEROON:
@@ -532,6 +573,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_CAMEROON;
                 this.countryCurrency = CURRENCY_CFA_FRANC_BEAC;
                 this.countryNameResource = R.string.CMR;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_XAF;
                 break;
             }
             case ISOCODE_CANADA:
@@ -539,6 +581,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_CANADA;
                 this.countryCurrency = CURRENCY_CANADIAN_DOLLAR;
                 this.countryNameResource = R.string.CAN;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_CAD;
                 break;
             }
             case ISOCODE_CAPE_VERDE:
@@ -546,6 +589,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_CAPE_VERDE;
                 this.countryCurrency = CURRENCY_CAPE_VERDE_ESCUDO;
                 this.countryNameResource = R.string.CPV;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_CVE;
                 break;
             }
             case ISOCODE_CAYMAN_ISLANDS:
@@ -553,6 +597,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_CAYMAN_ISLANDS;
                 this.countryCurrency = CURRENCY_CAYMAN_ISLANDS_DOLLAR;
                 this.countryNameResource = R.string.CYM;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_KYD;
                 break;
             }
             case ISOCODE_CENTRAL_AFREICAN_REPUBLIC:
@@ -560,6 +605,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_CENTRAL_AFREICAN_REPUBLIC;
                 this.countryCurrency = CURRENCY_CFA_FRANC_BEAC;
                 this.countryNameResource = R.string.CAF;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_XAF;
                 break;
             }
             case ISOCODE_CHAD:
@@ -567,6 +613,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_CHAD;
                 this.countryCurrency = CURRENCY_CFA_FRANC_BEAC;
                 this.countryNameResource = R.string.TCD;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_XAF;
                 break;
             }
             case ISOCODE_CHILE:
@@ -574,6 +621,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_CHILE;
                 this.countryCurrency = CURRENCY_CHILEAN_PESO;
                 this.countryNameResource = R.string.CHL;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_CLP;
                 break;
             }
             case ISOCODE_CHINA:
@@ -581,6 +629,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_CHINA;
                 this.countryCurrency = CURRENCY_CHINESE_YUAN;
                 this.countryNameResource = R.string.CHN;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_CNY;
                 break;
             }
             case ISOCODE_CHRISTMAS_ISLAND:
@@ -588,6 +637,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_CHRISTMAS_ISLAND;
                 this.countryCurrency = CURRENCY_AUSTRALIAN_DOLLAR;
                 this.countryNameResource = R.string.CXR;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_AUD;
                 break;
             }
             case ISOCODE_COCOS_ISLANDS:
@@ -595,6 +645,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_COCOS_ISLANDS;
                 this.countryCurrency = CURRENCY_AUSTRALIAN_DOLLAR;
                 this.countryNameResource = R.string.CCK;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_AUD;
                 break;
             }
             case ISOCODE_COLOMBIA:
@@ -602,6 +653,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_COLOMBIA;
                 this.countryCurrency = CURRENCY_COLOMBIAN_PESO;
                 this.countryNameResource = R.string.COL;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_COP;
                 break;
             }
             case ISOCODE_COMOROS:
@@ -609,6 +661,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_COMOROS;
                 this.countryCurrency = CURRENCY_COMORO_FRANC;
                 this.countryNameResource = R.string.COM;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_KMF;
                 break;
             }
             case ISOCODE_COOK_ISLANDS:
@@ -616,6 +669,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_COOK_ISLANDS;
                 this.countryCurrency = CURRENCY_NEW_ZEALAND_DOLLAR;
                 this.countryNameResource = R.string.COK;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_NZD;
                 break;
             }
             case ISOCODE_COSTA_RICA:
@@ -623,6 +677,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_COSTA_RICA;
                 this.countryCurrency = CURRENCY_COSTA_RICAN_COLON;
                 this.countryNameResource = R.string.CRI;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_CRC;
                 break;
             }
             case ISOCODE_CROATIA:
@@ -630,6 +685,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_CROATIA;
                 this.countryCurrency = CURRENCY_CROATIAN_KUNA;
                 this.countryNameResource = R.string.HRV;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_HRK;
                 break;
             }
             case ISOCODE_CUBA:
@@ -637,6 +693,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_CUBA;
                 this.countryCurrency = CURRENCY_CUBAN_PESO;
                 this.countryNameResource = R.string.CUB;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_CUP;
                 break;
             }
             case ISOCODE_CURACAO:
@@ -644,6 +701,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_CURACAO;
                 this.countryCurrency = "";
                 this.countryNameResource = R.string.CUW;
+                this.countryCurrencyNameResource = 0;
                 break;
             }
             case ISOCODE_CYPRUS:
@@ -651,6 +709,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_CYPRUS;
                 this.countryCurrency = CURRENCY_EURO;
                 this.countryNameResource = R.string.CYP;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_EUR;
                 break;
             }
             case ISOCODE_CZECH_REPUBLIC:
@@ -658,6 +717,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_CZECH_REPUBLIC;
                 this.countryCurrency = CURRENCY_CZECH_KORUNA;
                 this.countryNameResource = R.string.CZE;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_CZK;
                 break;
             }
             case ISOCODE_DEMOCRATIC_REPUBLIC_OF_CONGO:
@@ -665,6 +725,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_DEMOCRATIC_REPUBLIC_OF_CONGO;
                 this.countryCurrency = CURRENCY_CONGOLESE_FRANC;
                 this.countryNameResource = R.string.COD;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_CDF;
                 break;
             }
             case ISOCODE_DENMARK:
@@ -672,6 +733,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_DENMARK;
                 this.countryCurrency = CURRENCY_DANISH_KRONE;
                 this.countryNameResource = R.string.DNK;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_DKK;
                 break;
             }
             case ISOCODE_DJIBOUTI:
@@ -679,6 +741,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_DJIBOUTI;
                 this.countryCurrency = CURRENCY_DJIBOUTIAN_FRANC;
                 this.countryNameResource = R.string.DJI;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_DJF;
                 break;
             }
             case ISOCODE_DOMINICA:
@@ -686,6 +749,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_DOMINICA;
                 this.countryCurrency = CURRENCY_EAST_CARIBBEAN_DOLLAR;
                 this.countryNameResource = R.string.DMA;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_XCD;
                 break;
             }
             case ISOCODE_DOMINICAN_REPUBLIC:
@@ -693,6 +757,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_DOMINICAN_REPUBLIC;
                 this.countryCurrency = CURRENCY_DOMINICAN_PESO;
                 this.countryNameResource = R.string.DOM;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_DOP;
                 break;
             }
             case ISOCODE_EAST_TIMOR:
@@ -700,6 +765,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_EAST_TIMOR;
                 this.countryCurrency = CURRENCY_UNITED_STATES_DOLLAR;
                 this.countryNameResource = R.string.TLS;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_USD;
                 break;
             }
             case ISOCODE_ECUADOR:
@@ -707,6 +773,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_ECUADOR;
                 this.countryCurrency = CURRENCY_ECUADOR_SUCRE;
                 this.countryNameResource = R.string.ECU;
+                this.countryCurrencyNameResource = 0;
                 break;
             }
             case ISOCODE_EGYPT:
@@ -714,6 +781,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_EGYPT;
                 this.countryCurrency = CURRENCY_EGYPTIAN_POUND;
                 this.countryNameResource = R.string.EGY;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_EGP;
                 break;
             }
             case ISOCODE_EL_SALVADOR:
@@ -721,6 +789,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_EL_SALVADOR;
                 this.countryCurrency = CURRENCY_SALVADORAN_COLON;
                 this.countryNameResource = R.string.SLV;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_SVC;
                 break;
             }
             case ISOCODE_EQUATORIAL_GUINEA:
@@ -728,6 +797,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_EQUATORIAL_GUINEA;
                 this.countryCurrency = CURRENCY_CFA_FRANC_BEAC;
                 this.countryNameResource = R.string.GNQ;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_XAF;
                 break;
             }
             case ISOCODE_ERITREA:
@@ -735,6 +805,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_ERITREA;
                 this.countryCurrency = CURRENCY_ERITREAN_NAKFA;
                 this.countryNameResource = R.string.ERI;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_ERN;
                 break;
             }
             case ISOCODE_ESTONIA:
@@ -742,6 +813,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_ESTONIA;
                 this.countryCurrency = CURRENCY_EURO;
                 this.countryNameResource = R.string.EST;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_EUR;
                 break;
             }
             case ISOCODE_ETHIOPIA:
@@ -749,6 +821,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_ETHIOPIA;
                 this.countryCurrency = CURRENCY_ETHIOPIAN_BIRR;
                 this.countryNameResource = R.string.ETH;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_ETB;
                 break;
             }
             case ISOCODE_FALKLAND_ISLANDS:
@@ -756,6 +829,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_FALKLAND_ISLANDS;
                 this.countryCurrency = CURRENCY_FALKLAND_ISLANDS_POUND;
                 this.countryNameResource = R.string.FLK;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_FKP;
                 break;
             }
             case ISOCODE_FAROE_ISLANDS:
@@ -763,6 +837,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_FAROE_ISLANDS;
                 this.countryCurrency = CURRENCY_DANISH_KRONE;
                 this.countryNameResource = R.string.FRO;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_DKK;
                 break;
             }
             case ISOCODE_FIJI:
@@ -770,6 +845,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_FIJI;
                 this.countryCurrency = CURRENCY_FIJI_DOLLAR;
                 this.countryNameResource = R.string.FJI;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_FJD;
                 break;
             }
             case ISOCODE_FINLAND:
@@ -777,6 +853,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_FINLAND;
                 this.countryCurrency = CURRENCY_EURO;
                 this.countryNameResource = R.string.FIN;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_EUR;
                 break;
             }
             case ISOCODE_FRANCE:
@@ -784,6 +861,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_FRANCE;
                 this.countryCurrency = CURRENCY_EURO;
                 this.countryNameResource = R.string.FRA;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_EUR;
                 break;
             }
             case ISOCODE_FRENCH_POLYNESIA:
@@ -791,6 +869,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_FRENCH_POLYNESIA;
                 this.countryCurrency = CURRENCY_CFP_FRANC;
                 this.countryNameResource = R.string.PYF;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_XPF;
                 break;
             }
             case ISOCODE_GABON:
@@ -798,6 +877,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_GABON;
                 this.countryCurrency = CURRENCY_CFA_FRANC_BEAC;
                 this.countryNameResource = R.string.GAB;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_XAF;
                 break;
             }
             case ISOCODE_GAMBIA:
@@ -805,6 +885,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_GAMBIA;
                 this.countryCurrency = CURRENCY_GAMBIAN_DALASI;
                 this.countryNameResource = R.string.GMB;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_GMD;
                 break;
             }
             case ISOCODE_GEORGIA:
@@ -812,6 +893,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_GEORGIA;
                 this.countryCurrency = CURRENCY_GEORGIAN_LARI;
                 this.countryNameResource = R.string.GEO;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_GEL;
                 break;
             }
             case ISOCODE_GERMANY:
@@ -819,6 +901,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_GERMANY;
                 this.countryCurrency = CURRENCY_EURO;
                 this.countryNameResource = R.string.DEU;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_EUR;
                 break;
             }
             case ISOCODE_GHANA:
@@ -826,6 +909,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_GHANA;
                 this.countryCurrency = CURRENCY_GHANAIAN_CEDI;
                 this.countryNameResource = R.string.GHA;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_GHS;
                 break;
             }
             case ISOCODE_GIBRALTAR:
@@ -833,6 +917,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_GIBRALTAR;
                 this.countryCurrency = CURRENCY_GIBRALTAR_POUND;
                 this.countryNameResource = R.string.GIB;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_GIP;
                 break;
             }
             case ISOCODE_GREECE:
@@ -840,6 +925,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_GREECE;
                 this.countryCurrency = CURRENCY_EURO;
                 this.countryNameResource = R.string.GRC;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_EUR;
                 break;
             }
             case ISOCODE_GREENLAND:
@@ -847,6 +933,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_GREENLAND;
                 this.countryCurrency = CURRENCY_DANISH_KRONE;
                 this.countryNameResource = R.string.GRL;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_DKK;
                 break;
             }
             case ISOCODE_GRENADA:
@@ -854,6 +941,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_GRENADA;
                 this.countryCurrency = CURRENCY_EAST_CARIBBEAN_DOLLAR;
                 this.countryNameResource = R.string.GRD;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_XCD;
                 break;
             }
             case ISOCODE_GUAM:
@@ -861,6 +949,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_GUAM;
                 this.countryCurrency = CURRENCY_UNITED_STATES_DOLLAR;
                 this.countryNameResource = R.string.GUM;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_USD;
                 break;
             }
             case ISOCODE_GUATEMALA:
@@ -868,6 +957,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_GUATEMALA;
                 this.countryCurrency = CURRENCY_GUATEMALAN_QUETZAL;
                 this.countryNameResource = R.string.GTM;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_GTQ;
                 break;
             }
             case ISOCODE_GUERNSEY:
@@ -875,6 +965,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_GUERNSEY;
                 this.countryCurrency = CURRENCY_POUND_STERLING;
                 this.countryNameResource = R.string.GGY;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_GBP;
                 break;
             }
             case ISOCODE_GUINEA:
@@ -882,6 +973,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_GUINEA;
                 this.countryCurrency = CURRENCY_GUINEAN_FRANC;
                 this.countryNameResource = R.string.GIN;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_GNF;
                 break;
             }
             case ISOCODE_GUINEA_BISSAU:
@@ -889,6 +981,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_GUINEA_BISSAU;
                 this.countryCurrency = CURRENCY_GUINEA_BISSAU_PESO;
                 this.countryNameResource = R.string.GNB;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_GWP;
                 break;
             }
             case ISOCODE_GUYANA:
@@ -896,6 +989,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_GUYANA;
                 this.countryCurrency = CURRENCY_GUYANESE_DOLLAR;
                 this.countryNameResource = R.string.GUY;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_GYD;
                 break;
             }
             case ISOCODE_HAITI:
@@ -903,6 +997,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_HAITI;
                 this.countryCurrency = CURRENCY_HAITIAN_GOURDE;
                 this.countryNameResource = R.string.HTI;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_HTG;
                 break;
             }
             case ISOCODE_HONDURAS:
@@ -910,6 +1005,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_HONDURAS;
                 this.countryCurrency = CURRENCY_HONDURAN_LEMPIRA;
                 this.countryNameResource = R.string.HND;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_HNL;
                 break;
             }
             case ISOCODE_HONGKONG:
@@ -917,6 +1013,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_HONGKONG;
                 this.countryCurrency = CURRENCY_HONGKONG_DOLLAR;
                 this.countryNameResource = R.string.HKG;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_HKD;
                 break;
             }
             case ISOCODE_HUNGARY:
@@ -924,6 +1021,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_HUNGARY;
                 this.countryCurrency = CURRENCY_HUNGARIAN_FORINT;
                 this.countryNameResource = R.string.HUN;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_HUF;
                 break;
             }
             case ISOCODE_ICELAND:
@@ -931,6 +1029,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_ICELAND;
                 this.countryCurrency = CURRENCY_ICELANDIC_KRÓNA;
                 this.countryNameResource = R.string.ISL;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_ISK;
                 break;
             }
             case ISOCODE_INDIA:
@@ -938,6 +1037,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_INDIA;
                 this.countryCurrency = CURRENCY_INDIAN_RUPEE;
                 this.countryNameResource = R.string.IND;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_INR;
                 break;
             }
             case ISOCODE_INDONESIA:
@@ -945,6 +1045,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_INDONESIA;
                 this.countryCurrency = CURRENCY_INDONESIAN_RUPIAH;
                 this.countryNameResource = R.string.IDN;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_IDR;
                 break;
             }
             case ISOCODE_IRAN:
@@ -952,6 +1053,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_IRAN;
                 this.countryCurrency = CURRENCY_IRANIAN_RIAL;
                 this.countryNameResource = R.string.IRN;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_IRR;
                 break;
             }
             case ISOCODE_IRAQ:
@@ -959,6 +1061,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_IRAQ;
                 this.countryCurrency = CURRENCY_IRAQI_DINAR;
                 this.countryNameResource = R.string.IRQ;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_IQD;
                 break;
             }
             case ISOCODE_IRELAND:
@@ -966,6 +1069,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_IRELAND;
                 this.countryCurrency = CURRENCY_EURO;
                 this.countryNameResource = R.string.IRL;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_EUR;
                 break;
             }
             case ISOCODE_ISLE_OF_MAN:
@@ -973,6 +1077,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_ISLE_OF_MAN;
                 this.countryCurrency = CURRENCY_POUND_STERLING;
                 this.countryNameResource = R.string.IMN;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_GBP;
                 break;
             }
             case ISOCODE_ISRAEL:
@@ -980,6 +1085,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_ISRAEL;
                 this.countryCurrency = CURRENCY_ISRAELI_NEW_SHEKEL;
                 this.countryNameResource = R.string.ISR;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_ILS;
                 break;
             }
             case ISOCODE_ITALY:
@@ -987,6 +1093,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_ITALY;
                 this.countryCurrency = CURRENCY_EURO;
                 this.countryNameResource = R.string.ITA;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_EUR;
                 break;
             }
             case ISOCODE_IVORY_COAST:
@@ -994,6 +1101,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_IVORY_COAST;
                 this.countryCurrency = CURRENCY_CFA_FRANC_BCEAO;
                 this.countryNameResource = R.string.CIV;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_XOF;
                 break;
             }
             case ISOCODE_JAMAICA:
@@ -1001,6 +1109,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_JAMAICA;
                 this.countryCurrency = CURRENCY_JAMAICAN_DOLLAR;
                 this.countryNameResource = R.string.JAM;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_JMD;
                 break;
             }
             case ISOCODE_JAPAN:
@@ -1008,6 +1117,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_JAPAN;
                 this.countryCurrency = CURRENCY_JAPANESE_YEN;
                 this.countryNameResource = R.string.JPN;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_JPY;
                 break;
             }
             case ISOCODE_JERSEY:
@@ -1015,6 +1125,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_JERSEY;
                 this.countryCurrency = CURRENCY_POUND_STERLING;
                 this.countryNameResource = R.string.JEY;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_GBP;
                 break;
             }
             case ISOCODE_JORDAN:
@@ -1022,6 +1133,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_JORDAN;
                 this.countryCurrency = CURRENCY_JORDANIAN_DINAR;
                 this.countryNameResource = R.string.JOR;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_JOD;
                 break;
             }
             case ISOCODE_KAZAKHSTAN:
@@ -1029,6 +1141,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_KAZAKHSTAN;
                 this.countryCurrency = CURRENCY_KAZAKHSTANI_TENGE;
                 this.countryNameResource = R.string.KAZ;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_KZT;
                 break;
             }
             case ISOCODE_KENYA:
@@ -1036,6 +1149,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_KENYA;
                 this.countryCurrency = CURRENCY_KENYAN_SHILLING;
                 this.countryNameResource = R.string.KEN;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_KES;
                 break;
             }
             case ISOCODE_KIRIBATI:
@@ -1043,6 +1157,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_KIRIBATI;
                 this.countryCurrency = CURRENCY_AUSTRALIAN_DOLLAR;
                 this.countryNameResource = R.string.KIR;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_AUD;
                 break;
             }
             case ISOCODE_KOSOVO:
@@ -1050,6 +1165,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_KOSOVO;
                 this.countryCurrency = CURRENCY_EURO;
                 this.countryNameResource = R.string.XKX;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_EUR;
                 break;
             }
             case ISOCODE_KUWAIT:
@@ -1057,6 +1173,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_KUWAIT;
                 this.countryCurrency = CURRENCY_KUWAITI_DINAR;
                 this.countryNameResource = R.string.KWT;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_KWD;
                 break;
             }
             case ISOCODE_KYRGYZSTAN:
@@ -1064,6 +1181,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_KYRGYZSTAN;
                 this.countryCurrency = CURRENCY_KYRGYZSTANI_SOM;
                 this.countryNameResource = R.string.KGZ;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_KGS;
                 break;
             }
             case ISOCODE_LAOS:
@@ -1071,6 +1189,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_LAOS;
                 this.countryCurrency = CURRENCY_LAO_KIP;
                 this.countryNameResource = R.string.LAO;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_LAK;
                 break;
             }
             case ISOCODE_LATVIA:
@@ -1078,6 +1197,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_LATVIA;
                 this.countryCurrency = CURRENCY_LATVIAN_LATS;
                 this.countryNameResource = R.string.LVA;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_LVL;
                 break;
             }
             case ISOCODE_LEBANON:
@@ -1085,6 +1205,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_LEBANON;
                 this.countryCurrency = CURRENCY_LEBANESE_POUND;
                 this.countryNameResource = R.string.LBN;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_LBP;
                 break;
             }
             case ISOCODE_LESOTHO:
@@ -1092,6 +1213,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_LESOTHO;
                 this.countryCurrency = CURRENCY_LESOTHO_LOTI;
                 this.countryNameResource = R.string.LSO;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_LSL;
                 break;
             }
             case ISOCODE_LIBERIA:
@@ -1099,6 +1221,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_LIBERIA;
                 this.countryCurrency = CURRENCY_LIBERIAN_DOLLAR;
                 this.countryNameResource = R.string.LBR;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_LRD;
                 break;
             }
             case ISOCODE_LIBYA:
@@ -1106,6 +1229,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_LIBYA;
                 this.countryCurrency = CURRENCY_LIBYAN_DINAR;
                 this.countryNameResource = R.string.LBY;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_LYD;
                 break;
             }
             case ISOCODE_LIECHTENSTEIN:
@@ -1113,6 +1237,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_LIECHTENSTEIN;
                 this.countryCurrency = CURRENCY_SWISS_FRANC;
                 this.countryNameResource = R.string.LIE;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_CHF;
                 break;
             }
             case ISOCODE_LITHUANIA:
@@ -1120,6 +1245,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_LITHUANIA;
                 this.countryCurrency = CURRENCY_LITHUANIAN_LITAS;
                 this.countryNameResource = R.string.LTU;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_LTL;
                 break;
             }
             case ISOCODE_LUXEMBOURG:
@@ -1127,6 +1253,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_LUXEMBOURG;
                 this.countryCurrency = CURRENCY_EURO;
                 this.countryNameResource = R.string.LUX;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_EUR;
                 break;
             }
             case ISOCODE_MACAU:
@@ -1134,6 +1261,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_MACAU;
                 this.countryCurrency = CURRENCY_MACANESE_PATACA;
                 this.countryNameResource = R.string.MAC;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_MOP;
                 break;
             }
             case ISOCODE_MACEDONIA:
@@ -1141,6 +1269,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_MACEDONIA;
                 this.countryCurrency = CURRENCY_MACEDONIAN_DENAR;
                 this.countryNameResource = R.string.MKD;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_MKD;
                 break;
             }
             case ISOCODE_MADAGASCAR:
@@ -1148,6 +1277,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_MADAGASCAR;
                 this.countryCurrency = CURRENCY_MADAGASCAR_ARIARY;
                 this.countryNameResource = R.string.MDG;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_MGA;
                 break;
             }
             case ISOCODE_MALAWI:
@@ -1155,6 +1285,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_MALAWI;
                 this.countryCurrency = CURRENCY_MALAWIAN_KWACHA;
                 this.countryNameResource = R.string.MWI;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_MWK;
                 break;
             }
             case ISOCODE_MALAYSIA:
@@ -1162,6 +1293,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_MALAYSIA;
                 this.countryCurrency = CURRENCY_MALAYSIAN_RINGGIT;
                 this.countryNameResource = R.string.MYS;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_MYR;
                 break;
             }
             case ISOCODE_MALDIVES:
@@ -1169,6 +1301,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_MALDIVES;
                 this.countryCurrency = CURRENCY_MALDIVIAN_RUFIYAA;
                 this.countryNameResource = R.string.MDV;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_MVR;
                 break;
             }
             case ISOCODE_MALI:
@@ -1176,6 +1309,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_MALI;
                 this.countryCurrency = CURRENCY_CFA_FRANC_BCEAO;
                 this.countryNameResource = R.string.MLI;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_XOF;
                 break;
             }
             case ISOCODE_MALTA:
@@ -1183,6 +1317,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_MALTA;
                 this.countryCurrency = CURRENCY_EURO;
                 this.countryNameResource = R.string.MLT;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_EUR;
                 break;
             }
             case ISOCODE_MARSHALL_ISLANDS:
@@ -1190,6 +1325,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_MARSHALL_ISLANDS;
                 this.countryCurrency = CURRENCY_UNITED_STATES_DOLLAR;
                 this.countryNameResource = R.string.MHL;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_USD;
                 break;
             }
             case ISOCODE_MAURITANIA:
@@ -1197,6 +1333,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_MAURITANIA;
                 this.countryCurrency = CURRENCY_MAURITANIA_OUGUIYA;
                 this.countryNameResource = R.string.MRT;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_MRO;
                 break;
             }
             case ISOCODE_MAURITIUS:
@@ -1204,6 +1341,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_MAURITIUS;
                 this.countryCurrency = CURRENCY_MAURITIAN_RUPEE;
                 this.countryNameResource = R.string.MUS;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_MUR;
                 break;
             }
             case ISOCODE_MAYOTTE:
@@ -1211,6 +1349,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_MAYOTTE;
                 this.countryCurrency = CURRENCY_EURO;
                 this.countryNameResource = R.string.MYT;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_EUR;
                 break;
             }
             case ISOCODE_MEXICO:
@@ -1218,6 +1357,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_MEXICO;
                 this.countryCurrency = CURRENCY_MEXICAN_PESO;
                 this.countryNameResource = R.string.MEX;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_MXN;
                 break;
             }
             case ISOCODE_MICRONESIA:
@@ -1225,6 +1365,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_MICRONESIA;
                 this.countryCurrency = CURRENCY_UNITED_STATES_DOLLAR;
                 this.countryNameResource = R.string.FSM;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_USD;
                 break;
             }
             case ISOCODE_MOLDOVA:
@@ -1232,6 +1373,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_MOLDOVA;
                 this.countryCurrency = CURRENCY_MOLDOVAN_LEU;
                 this.countryNameResource = R.string.MDA;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_MDL;
                 break;
             }
             case ISOCODE_MONACO:
@@ -1239,6 +1381,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_MONACO;
                 this.countryCurrency = CURRENCY_EURO;
                 this.countryNameResource = R.string.MCO;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_EUR;
                 break;
             }
             case ISOCODE_MONGOLIA:
@@ -1246,6 +1389,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_MONGOLIA;
                 this.countryCurrency = CURRENCY_MONGOLIAN_TOGROG;
                 this.countryNameResource = R.string.MNG;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_MNT;
                 break;
             }
             case ISOCODE_MONTENEGRO:
@@ -1253,6 +1397,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_MONTENEGRO;
                 this.countryCurrency = CURRENCY_EURO;
                 this.countryNameResource = R.string.MNE;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_EUR;
                 break;
             }
             case ISOCODE_MONTSERRAT:
@@ -1260,6 +1405,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_MONTSERRAT;
                 this.countryCurrency = CURRENCY_EAST_CARIBBEAN_DOLLAR;
                 this.countryNameResource = R.string.MSR;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_XCD;
                 break;
             }
             case ISOCODE_MOROCCO:
@@ -1267,6 +1413,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_MOROCCO;
                 this.countryCurrency = CURRENCY_MOROCCAN_DIRHAM;
                 this.countryNameResource = R.string.MAR;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_MAD;
                 break;
             }
             case ISOCODE_MOZAMBIQUE:
@@ -1274,6 +1421,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_MOZAMBIQUE;
                 this.countryCurrency = CURRENCY_MOZAMBICAN_METICAL;
                 this.countryNameResource = R.string.MOZ;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_MZN;
                 break;
             }
             case ISOCODE_MYANMAR:
@@ -1281,6 +1429,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_MYANMAR;
                 this.countryCurrency = CURRENCY_MYANMAR_KYAT;
                 this.countryNameResource = R.string.MMR;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_MMK;
                 break;
             }
             case ISOCODE_NAMIBIA:
@@ -1288,6 +1437,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_NAMIBIA;
                 this.countryCurrency = CURRENCY_NAMIBIAN_DOLLAR;
                 this.countryNameResource = R.string.NAM;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_NAD;
                 break;
             }
             case ISOCODE_NAURU:
@@ -1295,6 +1445,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_NAURU;
                 this.countryCurrency = CURRENCY_AUSTRALIAN_DOLLAR;
                 this.countryNameResource = R.string.NRU;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_AUD;
                 break;
             }
             case ISOCODE_NEPAL:
@@ -1302,6 +1453,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_NEPAL;
                 this.countryCurrency = CURRENCY_NEPALESE_RUPEE;
                 this.countryNameResource = R.string.NPL;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_NPR;
                 break;
             }
             case ISOCODE_NETHERLANDS:
@@ -1309,6 +1461,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_NETHERLANDS;
                 this.countryCurrency = CURRENCY_EURO;
                 this.countryNameResource = R.string.NLD;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_EUR;
                 break;
             }
             case ISOCODE_NETHERLANDS_ANTILLES:
@@ -1316,6 +1469,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_NETHERLANDS_ANTILLES;
                 this.countryCurrency = CURRENCY_NETHERLANDS_ANTILLEAN_GUILDER;
                 this.countryNameResource = R.string.ANT;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_ANG;
                 break;
             }
             case ISOCODE_NEW_CALEDONIA:
@@ -1323,6 +1477,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_NEW_CALEDONIA;
                 this.countryCurrency = CURRENCY_CFP_FRANC;
                 this.countryNameResource = R.string.NCL;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_XPF;
                 break;
             }
             case ISOCODE_NEW_ZEALAND:
@@ -1330,6 +1485,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_NEW_ZEALAND;
                 this.countryCurrency = CURRENCY_NEW_ZEALAND_DOLLAR;
                 this.countryNameResource = R.string.NZL;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_NZD;
                 break;
             }
             case ISOCODE_NICARAGUA:
@@ -1337,6 +1493,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_NICARAGUA;
                 this.countryCurrency = CURRENCY_NICARAGUAN_CORDOBA;
                 this.countryNameResource = R.string.NIC;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_NIO;
                 break;
             }
             case ISOCODE_NIGER:
@@ -1344,6 +1501,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_NIGER;
                 this.countryCurrency = CURRENCY_CFA_FRANC_BCEAO;
                 this.countryNameResource = R.string.NER;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_XOF;
                 break;
             }
             case ISOCODE_NIGERIA:
@@ -1351,6 +1509,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_NIGERIA;
                 this.countryCurrency = CURRENCY_NIGERIAN_NAIRA;
                 this.countryNameResource = R.string.NGA;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_NGN;
                 break;
             }
             case ISOCODE_NIUE:
@@ -1358,6 +1517,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_NIUE;
                 this.countryCurrency = CURRENCY_NEW_ZEALAND_DOLLAR;
                 this.countryNameResource = R.string.NIU;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_NZD;
                 break;
             }
             case ISOCODE_NORTH_KOREA:
@@ -1365,6 +1525,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_NORTH_KOREA;
                 this.countryCurrency = CURRENCY_NORTH_KOREAN_WON;
                 this.countryNameResource = R.string.PRK;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_KPW;
                 break;
             }
             case ISOCODE_NORTHERN_MARIANA_ISLANDS:
@@ -1372,6 +1533,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_NORTHERN_MARIANA_ISLANDS;
                 this.countryCurrency = CURRENCY_UNITED_STATES_DOLLAR;
                 this.countryNameResource = R.string.MNP;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_USD;
                 break;
             }
             case ISOCODE_NORWAY:
@@ -1379,6 +1541,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_NORWAY;
                 this.countryCurrency = CURRENCY_NORWEGIAN_KRONE;
                 this.countryNameResource = R.string.NOR;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_NOK;
                 break;
             }
             case ISOCODE_OMAN:
@@ -1386,6 +1549,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_OMAN;
                 this.countryCurrency = CURRENCY_OMANI_RIAL;
                 this.countryNameResource = R.string.OMN;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_OMR;
                 break;
             }
             case ISOCODE_PAKISTAN:
@@ -1393,6 +1557,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_PAKISTAN;
                 this.countryCurrency = CURRENCY_PAKISTANI_RUPEE;
                 this.countryNameResource = R.string.PAK;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_PKR;
                 break;
             }
             case ISOCODE_PALAU:
@@ -1400,6 +1565,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_PALAU;
                 this.countryCurrency = CURRENCY_UNITED_STATES_DOLLAR;
                 this.countryNameResource = R.string.PLW;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_USD;
                 break;
             }
             case ISOCODE_PALESTINE:
@@ -1407,6 +1573,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_PALESTINE;
                 this.countryCurrency = "";
                 this.countryNameResource = R.string.PSE;
+                this.countryCurrencyNameResource = 0;
                 break;
             }
             case ISOCODE_PANAMA:
@@ -1414,6 +1581,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_PANAMA;
                 this.countryCurrency = CURRENCY_PANAMANIAN_BALBOA;
                 this.countryNameResource = R.string.PAN;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_PAB;
                 break;
             }
             case ISOCODE_PAPUA_NEW_GUINEA:
@@ -1421,6 +1589,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_PAPUA_NEW_GUINEA;
                 this.countryCurrency = CURRENCY_PAPUA_NEW_GUINEAN_KINA;
                 this.countryNameResource = R.string.PNG;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_PGK;
                 break;
             }
             case ISOCODE_PARAGUAY:
@@ -1428,6 +1597,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_PARAGUAY;
                 this.countryCurrency = CURRENCY_PARAGUAYAN_GUARANI;
                 this.countryNameResource = R.string.PRY;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_PYG;
                 break;
             }
             case ISOCODE_PERU:
@@ -1435,6 +1605,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_PERU;
                 this.countryCurrency = CURRENCY_PERUVIAN_SOL;
                 this.countryNameResource = R.string.PER;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_PEN;
                 break;
             }
             case ISOCODE_PHILIPPINES:
@@ -1442,6 +1613,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_PHILIPPINES;
                 this.countryCurrency = CURRENCY_PHILIPPINE_PESO;
                 this.countryNameResource = R.string.PHL;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_PHP;
                 break;
             }
             case ISOCODE_PITCAIRN:
@@ -1449,6 +1621,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_PITCAIRN;
                 this.countryCurrency = CURRENCY_NEW_ZEALAND_DOLLAR;
                 this.countryNameResource = R.string.PCN;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_NZD;
                 break;
             }
             case ISOCODE_POLAND:
@@ -1456,6 +1629,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_POLAND;
                 this.countryCurrency = CURRENCY_POLISH_ZWOTY;
                 this.countryNameResource = R.string.POL;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_PLN;
                 break;
             }
             case ISOCODE_PORTUGAL:
@@ -1463,6 +1637,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_PORTUGAL;
                 this.countryCurrency = CURRENCY_EURO;
                 this.countryNameResource = R.string.PRT;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_EUR;
                 break;
             }
             case ISOCODE_PUERTO_RICO:
@@ -1470,6 +1645,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_PUERTO_RICO;
                 this.countryCurrency = CURRENCY_UNITED_STATES_DOLLAR;
                 this.countryNameResource = R.string.PRI;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_USD;
                 break;
             }
             case ISOCODE_QATAR:
@@ -1477,6 +1653,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_QATAR;
                 this.countryCurrency = CURRENCY_QATARI_RIYAL;
                 this.countryNameResource = R.string.QAT;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_QAR;
                 break;
             }
             case ISOCODE_REPUBLIC_OF_THE_CONGO:
@@ -1484,6 +1661,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_REPUBLIC_OF_THE_CONGO;
                 this.countryCurrency = CURRENCY_CFA_FRANC_BEAC;
                 this.countryNameResource = R.string.COG;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_XAF;
                 break;
             }
             case ISOCODE_REUNION:
@@ -1491,6 +1669,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_REUNION;
                 this.countryCurrency = CURRENCY_EURO;
                 this.countryNameResource = R.string.REU;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_EUR;
                 break;
             }
             case ISOCODE_ROMANIA:
@@ -1498,6 +1677,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_ROMANIA;
                 this.countryCurrency = CURRENCY_ROMANIAN_LEU;
                 this.countryNameResource = R.string.ROU;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_RON;
                 break;
             }
             case ISOCODE_RUSSIA:
@@ -1505,6 +1685,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_RUSSIA;
                 this.countryCurrency = CURRENCY_RUSSIAN_RUBLE;
                 this.countryNameResource = R.string.RUS;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_RUB;
                 break;
             }
             case ISOCODE_RWANDA:
@@ -1512,6 +1693,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_RWANDA;
                 this.countryCurrency = CURRENCY_RWANDAN_FRANC;
                 this.countryNameResource = R.string.RWA;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_RWF;
                 break;
             }
             case ISOCODE_SAINT_BARTHELEMY:
@@ -1519,6 +1701,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_SAINT_BARTHELEMY;
                 this.countryCurrency = CURRENCY_EURO;
                 this.countryNameResource = R.string.BLM;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_EUR;
                 break;
             }
             case ISOCODE_SAINT_HELENA:
@@ -1526,6 +1709,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_SAINT_HELENA;
                 this.countryCurrency = CURRENCY_SAINT_HELENA_POUND;
                 this.countryNameResource = R.string.SHN;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_SHP;
                 break;
             }
             case ISOCODE_SAINT_KITTS_AND_NEVIS:
@@ -1533,6 +1717,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_SAINT_KITTS_AND_NEVIS;
                 this.countryCurrency = CURRENCY_EAST_CARIBBEAN_DOLLAR;
                 this.countryNameResource = R.string.KNA;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_XCD;
                 break;
             }
             case ISOCODE_SAINT_LUCIA:
@@ -1540,6 +1725,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_SAINT_LUCIA;
                 this.countryCurrency = CURRENCY_EAST_CARIBBEAN_DOLLAR;
                 this.countryNameResource = R.string.LCA;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_XCD;
                 break;
             }
             case ISOCODE_SAINT_MARTIN:
@@ -1547,6 +1733,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_SAINT_MARTIN;
                 this.countryCurrency = CURRENCY_EURO;
                 this.countryNameResource = R.string.MAF;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_EUR;
                 break;
             }
             case ISOCODE_SAINT_PIERRE_AND_MIQUELON:
@@ -1554,6 +1741,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_SAINT_PIERRE_AND_MIQUELON;
                 this.countryCurrency = CURRENCY_EURO;
                 this.countryNameResource = R.string.SPM;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_EUR;
                 break;
             }
             case ISOCODE_SAINT_VINCENT_AND_GRENADINES:
@@ -1561,6 +1749,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_SAINT_VINCENT_AND_GRENADINES;
                 this.countryCurrency = CURRENCY_EAST_CARIBBEAN_DOLLAR;
                 this.countryNameResource = R.string.VCT;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_XCD;
                 break;
             }
             case ISOCODE_SAMOA:
@@ -1568,6 +1757,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_SAMOA;
                 this.countryCurrency = CURRENCY_SAMOAN_TALA;
                 this.countryNameResource = R.string.WSM;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_WST;
                 break;
             }
             case ISOCODE_SAN_MARINO:
@@ -1575,6 +1765,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_SAN_MARINO;
                 this.countryCurrency = CURRENCY_EURO;
                 this.countryNameResource = R.string.SMR;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_EUR;
                 break;
             }
             case ISOCODE_SAO_TOME_AND_PRINCIPE:
@@ -1582,6 +1773,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_SAO_TOME_AND_PRINCIPE;
                 this.countryCurrency = CURRENCY_SAO_TOME_AND_PRICIPE_DOBRA;
                 this.countryNameResource = R.string.STP;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_STD;
                 break;
             }
             case ISOCODE_SAUDI_ARABIA:
@@ -1589,6 +1781,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_SAUDI_ARABIA;
                 this.countryCurrency = CURRENCY_SAUDI_RIYAL;
                 this.countryNameResource = R.string.SAU;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_SAR;
                 break;
             }
             case ISOCODE_SENEGAL:
@@ -1596,6 +1789,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_SENEGAL;
                 this.countryCurrency = CURRENCY_CFA_FRANC_BCEAO;
                 this.countryNameResource = R.string.SEN;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_XOF;
                 break;
             }
             case ISOCODE_SERBIA:
@@ -1603,6 +1797,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_SERBIA;
                 this.countryCurrency = CURRENCY_SERBIAN_DINAR;
                 this.countryNameResource = R.string.SRB;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_RSD;
                 break;
             }
             case ISOCODE_SEYCHELLES:
@@ -1610,6 +1805,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_SEYCHELLES;
                 this.countryCurrency = CURRENCY_SEYCHELLES_RUPEE;
                 this.countryNameResource = R.string.SYC;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_SCR;
                 break;
             }
             case ISOCODE_SIERRA_LEONE:
@@ -1617,6 +1813,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_SIERRA_LEONE;
                 this.countryCurrency = CURRENCY_SIERRA_LEONEAN_LEONE;
                 this.countryNameResource = R.string.SLE;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_SLL;
                 break;
             }
             case ISOCODE_SINGAPORE:
@@ -1624,6 +1821,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_SINGAPORE;
                 this.countryCurrency = CURRENCY_SINGAPORE_DOLLAR;
                 this.countryNameResource = R.string.SGP;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_SGD;
                 break;
             }
             case ISOCODE_SINT_MAARTEN:
@@ -1631,6 +1829,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_SINT_MAARTEN;
                 this.countryCurrency = CURRENCY_NETHERLANDS_ANTILLEAN_GUILDER;
                 this.countryNameResource = R.string.SXM;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_ANG;
                 break;
             }
             case ISOCODE_SLOVAKIA:
@@ -1638,6 +1837,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_SLOVAKIA;
                 this.countryCurrency = CURRENCY_EURO;
                 this.countryNameResource = R.string.SVK;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_EUR;
                 break;
             }
             case ISOCODE_SLOVENIA:
@@ -1645,6 +1845,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_SLOVENIA;
                 this.countryCurrency = CURRENCY_EURO;
                 this.countryNameResource = R.string.SVN;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_EUR;
                 break;
             }
             case ISOCODE_SOLOMON_ISLANDS:
@@ -1652,6 +1853,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_SOLOMON_ISLANDS;
                 this.countryCurrency = CURRENCY_SOLOMON_ISLANDS_DOLLAR;
                 this.countryNameResource = R.string.SLB;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_SBD;
                 break;
             }
             case ISOCODE_SOMALIA:
@@ -1659,6 +1861,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_SOMALIA;
                 this.countryCurrency = CURRENCY_SOMALI_SHILLING;
                 this.countryNameResource = R.string.SOM;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_SOS;
                 break;
             }
             case ISOCODE_SOUTH_AFRICA:
@@ -1666,6 +1869,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_SOUTH_AFRICA;
                 this.countryCurrency = CURRENCY_SOUTH_AFRICAN_RAND;
                 this.countryNameResource = R.string.ZAF;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_ZAR;
                 break;
             }
             case ISOCODE_SOUTH_KOREA:
@@ -1673,6 +1877,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_SOUTH_KOREA;
                 this.countryCurrency = CURRENCY_SOUTH_KOREAN_WON;
                 this.countryNameResource = R.string.KOR;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_KRW;
                 break;
             }
             case ISOCODE_SOUTH_SUDAN:
@@ -1680,6 +1885,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_SOUTH_SUDAN;
                 this.countryCurrency = CURRENCY_SOUTH_SUDANESE_POUND;
                 this.countryNameResource = R.string.SSD;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_SSP;
                 break;
             }
             case ISOCODE_SPAIN:
@@ -1687,6 +1893,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_SPAIN;
                 this.countryCurrency = CURRENCY_EURO;
                 this.countryNameResource = R.string.ESP;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_EUR;
                 break;
             }
             case ISOCODE_SRI_LANKA:
@@ -1694,6 +1901,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_SRI_LANKA;
                 this.countryCurrency = CURRENCY_SRI_LANKAN_RUPEE;
                 this.countryNameResource = R.string.LKA;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_LKR;
                 break;
             }
             case ISOCODE_SUDAN:
@@ -1701,6 +1909,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_SUDAN;
                 this.countryCurrency = CURRENCY_SUDANESE_POUND;
                 this.countryNameResource = R.string.SDN;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_SDG;
                 break;
             }
             case ISOCODE_SURINAME:
@@ -1708,6 +1917,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_SURINAME;
                 this.countryCurrency = CURRENCY_SURINAMESE_DOLLAR;
                 this.countryNameResource = R.string.SUR;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_SRD;
                 break;
             }
             case ISOCODE_SVALBARD_AND_JAN_MAYEN:
@@ -1715,6 +1925,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_SVALBARD_AND_JAN_MAYEN;
                 this.countryCurrency = CURRENCY_NORWEGIAN_KRONE;
                 this.countryNameResource = R.string.SJM;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_NOK;
                 break;
             }
             case ISOCODE_SWAZILAND:
@@ -1722,6 +1933,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_SWAZILAND;
                 this.countryCurrency = CURRENCY_SWAZI_LILANGENI;
                 this.countryNameResource = R.string.SWZ;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_SZL;
                 break;
             }
             case ISOCODE_SWEDEN:
@@ -1729,6 +1941,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_SWEDEN;
                 this.countryCurrency = CURRENCY_SWEDISH_KRONA_KRONOR;
                 this.countryNameResource = R.string.SWE;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_SEK;
                 break;
             }
             case ISOCODE_SWITZERLAND:
@@ -1736,6 +1949,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_SWITZERLAND;
                 this.countryCurrency = CURRENCY_SWISS_FRANC;
                 this.countryNameResource = R.string.CHE;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_CHF;
                 break;
             }
             case ISOCODE_SYRIA:
@@ -1743,6 +1957,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_SYRIA;
                 this.countryCurrency = CURRENCY_SYRIAN_POUND;
                 this.countryNameResource = R.string.SYR;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_SYP;
                 break;
             }
             case ISOCODE_TAIWAN:
@@ -1750,6 +1965,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_TAIWAN;
                 this.countryCurrency = CURRENCY_NEW_TAIWAN_DOLLAR;
                 this.countryNameResource = R.string.TWN;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_TWD;
                 break;
             }
             case ISOCODE_TAJIKISTAN:
@@ -1757,6 +1973,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_TAJIKISTAN;
                 this.countryCurrency = CURRENCY_TAJIKISTANI_SOMONI;
                 this.countryNameResource = R.string.TJK;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_TJS;
                 break;
             }
             case ISOCODE_TANZANIA:
@@ -1764,6 +1981,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_TANZANIA;
                 this.countryCurrency = CURRENCY_TANZANIAN_SHILLING;
                 this.countryNameResource = R.string.TZA;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_TZS;
                 break;
             }
             case ISOCODE_THAILAND:
@@ -1771,6 +1989,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_THAILAND;
                 this.countryCurrency = CURRENCY_THAI_BAHT;
                 this.countryNameResource = R.string.THA;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_THB;
                 break;
             }
             case ISOCODE_TOGO:
@@ -1778,6 +1997,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_TOGO;
                 this.countryCurrency = CURRENCY_CFA_FRANC_BCEAO;
                 this.countryNameResource = R.string.TGO;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_XOF;
                 break;
             }
             case ISOCODE_TOKELAU:
@@ -1785,6 +2005,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_TOKELAU;
                 this.countryCurrency = CURRENCY_NEW_ZEALAND_DOLLAR;
                 this.countryNameResource = R.string.TKL;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_NZD;
                 break;
             }
             case ISOCODE_TONGA:
@@ -1792,6 +2013,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_TONGA;
                 this.countryCurrency = CURRENCY_TONGAN_PANGA;
                 this.countryNameResource = R.string.TON;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_TOP;
                 break;
             }
             case ISOCODE_TRINIDAD_AND_TOBAGO:
@@ -1799,6 +2021,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_TRINIDAD_AND_TOBAGO;
                 this.countryCurrency = CURRENCY_TRINIDAD_AND_TOBAGO_DOLLAR;
                 this.countryNameResource = R.string.TTO;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_TTD;
                 break;
             }
             case ISOCODE_TUNISIA:
@@ -1806,6 +2029,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_TUNISIA;
                 this.countryCurrency = CURRENCY_TUNISIAN_DINAR;
                 this.countryNameResource = R.string.TUN;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_TND;
                 break;
             }
             case ISOCODE_TURKEY:
@@ -1813,6 +2037,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_TURKEY;
                 this.countryCurrency = CURRENCY_TURKISH_LIRA;
                 this.countryNameResource = R.string.TUR;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_TRY;
                 break;
             }
             case ISOCODE_TURKMENISTAN:
@@ -1820,6 +2045,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_TURKMENISTAN;
                 this.countryCurrency = CURRENCY_TURKMENISTANI_MANAT;
                 this.countryNameResource = R.string.TKM;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_TMT;
                 break;
             }
             case ISOCODE_TURK_AND_CAICOS_ISLANDS:
@@ -1827,6 +2053,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_TURK_AND_CAICOS_ISLANDS;
                 this.countryCurrency = CURRENCY_UNITED_STATES_DOLLAR;
                 this.countryNameResource = R.string.TCA;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_USD;
                 break;
             }
             case ISOCODE_TUVALU:
@@ -1834,6 +2061,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_TUVALU;
                 this.countryCurrency = CURRENCY_AUSTRALIAN_DOLLAR;
                 this.countryNameResource = R.string.TUV;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_AUD;
                 break;
             }
             case ISOCODE_US_VIRGIN_ISLANDS:
@@ -1841,6 +2069,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_US_VIRGIN_ISLANDS;
                 this.countryCurrency = CURRENCY_UNITED_STATES_DOLLAR;
                 this.countryNameResource = R.string.VIR;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_USD;
                 break;
             }
             case ISOCODE_UGANDA:
@@ -1848,6 +2077,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_UGANDA;
                 this.countryCurrency = CURRENCY_UGANDAN_SHILLING;
                 this.countryNameResource = R.string.UGA;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_UGX;
                 break;
             }
             case ISOCODE_UKRAINE:
@@ -1855,6 +2085,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_UKRAINE;
                 this.countryCurrency = CURRENCY_UKRAINIAN_HRYVNIA;
                 this.countryNameResource = R.string.UKR;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_UAH;
                 break;
             }
             case ISOCODE_UNITED_ARAB_EMIRATES:
@@ -1862,6 +2093,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_UNITED_ARAB_EMIRATES;
                 this.countryCurrency = CURRENCY_UNITED_ARAB_EMIRATES_DIRHAM;
                 this.countryNameResource = R.string.ARE;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_AED;
                 break;
             }
             case ISOCODE_UNITED_KINGDOM:
@@ -1869,6 +2101,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_UNITED_KINGDOM;
                 this.countryCurrency = CURRENCY_POUND_STERLING;
                 this.countryNameResource = R.string.GBR;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_GBP;
                 break;
             }
             case ISOCODE_UNITED_STATES:
@@ -1876,6 +2109,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_UNITED_STATES;
                 this.countryCurrency = CURRENCY_UNITED_STATES_DOLLAR;
                 this.countryNameResource = R.string.USA;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_USD;
                 break;
             }
             case ISOCODE_URUGUAY:
@@ -1883,6 +2117,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_URUGUAY;
                 this.countryCurrency = CURRENCY_URUGUAYAN_PESO;
                 this.countryNameResource = R.string.URY;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_UYU;
                 break;
             }
             case ISOCODE_UZBEKISTAN:
@@ -1890,6 +2125,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_UZBEKISTAN;
                 this.countryCurrency = CURRENCY_UZBEKISTAN_SOM;
                 this.countryNameResource = R.string.UZB;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_UZS;
                 break;
             }
             case ISOCODE_VANUATU:
@@ -1897,6 +2133,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_VANUATU;
                 this.countryCurrency = CURRENCY_VANUATU_VATU;
                 this.countryNameResource = R.string.VUT;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_VUV;
                 break;
             }
             case ISOCODE_VATICAN:
@@ -1904,6 +2141,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_VATICAN;
                 this.countryCurrency = CURRENCY_EURO;
                 this.countryNameResource = R.string.VAT;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_EUR;
                 break;
             }
             case ISOCODE_VENEZUELA:
@@ -1911,6 +2149,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_VENEZUELA;
                 this.countryCurrency = CURRENCY_VENEZUELAN_BOLIVAR;
                 this.countryNameResource = R.string.VEN;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_VEF;
                 break;
             }
             case ISOCODE_VIETNAM:
@@ -1918,6 +2157,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_VIETNAM;
                 this.countryCurrency = CURRENCY_VIETNAMESE_DONG;
                 this.countryNameResource = R.string.VNM;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_VND;
                 break;
             }
             case ISOCODE_WALLIS_AND_FUTUNA:
@@ -1925,6 +2165,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_WALLIS_AND_FUTUNA;
                 this.countryCurrency = CURRENCY_CFP_FRANC;
                 this.countryNameResource = R.string.WLF;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_XPF;
                 break;
             }
             case ISOCODE_WESTERN_SAHARA:
@@ -1932,6 +2173,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_WESTERN_SAHARA;
                 this.countryCurrency = CURRENCY_MOROCCAN_DIRHAM;
                 this.countryNameResource = R.string.ESH;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_MAD;
                 break;
             }
             case ISOCODE_YEMEN:
@@ -1939,6 +2181,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_YEMEN;
                 this.countryCurrency = CURRENCY_YEMENI_RIAL;
                 this.countryNameResource = R.string.YEM;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_YER;
                 break;
             }
             case ISOCODE_ZAMBIA:
@@ -1946,6 +2189,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_ZAMBIA;
                 this.countryCurrency = CURRENCY_ZAMBIAN_KWACHA;
                 this.countryNameResource = R.string.ZMB;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_ZMW;
                 break;
             }
             case ISOCODE_ZIMBABWE:
@@ -1953,6 +2197,7 @@ public class Country implements CountryConst, CurrencyConst{
                 this.countryISOCode = ISOCODE3_ZIMBABWE;
                 this.countryCurrency = CURRENCY_ZIMBABWE_DOLLOAR;
                 this.countryNameResource = R.string.ZWE;
+                this.countryCurrencyNameResource = R.string.CurrencyCode_ZWL;
                 break;
             }
         }

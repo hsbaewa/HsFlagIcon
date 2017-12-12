@@ -29,11 +29,14 @@ public class SampleActivity extends HsActivity {
 
         ImageView imageView = findViewById(R.id.ImageView);
         TextView textView = findViewById(R.id.TextView);
+        TextView textViewCurrencyName = findViewById(R.id.TextViewCurrencyName);
 
         Country country = new Country(Country.getAvailableCountries()[40]);
         Flag flag = new Flag(country);
         imageView.setImageResource(flag.getFlagResourceFlat());
 
         textView.setText(country.getCountryNameResource());
+
+        textViewCurrencyName.setText(country.getCountryCurrencyNameResource());
     }
 }
